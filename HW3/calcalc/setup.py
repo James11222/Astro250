@@ -70,15 +70,15 @@ setup(
     #
     # This field corresponds to the "Home-Page" metadata field:
     # https://packaging.python.org/specifications/core-metadata/#home-page-optional
-    url='https://github.com/pypa/sampleproject',  # Optional
+    url='https://github.com/James11222/Astro250/tree/main/HW3/calcalc',  # Optional
 
     # This should be your name or the name of the organization which owns the
     # project.
-    author='A. Random Developer',  # Optional
+    author='James Sunseri',  # Optional
 
     # This should be a valid email address corresponding to the author listed
     # above.
-    author_email='author@example.com',  # Optional
+    author_email='jamessunseri@berkeley.edu',  # Optional
 
     # Classifiers help users find your project by categorizing it.
     #
@@ -115,11 +115,11 @@ setup(
     # Note that this is a list of additional keywords, separated
     # by commas, to be used to assist searching for the distribution in a
     # larger catalog.
-    keywords='sample, setuptools, development',  # Optional
+    keywords='calculator, simple, berkeley, cal, js',  # Optional
 
     # When your source code is in a subdirectory under the project root, e.g.
     # `src/`, it is necessary to specify the `package_dir` argument.
-    package_dir={'': 'src'},  # Optional
+    # package_dir={'': 'src'},  # Optional
 
     # You can just specify package directories manually here if your project is
     # simple. Or you can use find_packages().
@@ -128,9 +128,9 @@ setup(
     # the `py_modules` argument instead as follows, which will expect a file
     # called `my_module.py` to exist:
     #
-    #   py_modules=["my_module"],
+    py_modules=["CalCalc"],
     #
-    packages=find_packages(where='src'),  # Required
+    # packages=find_packages(where='src'),  # Required
 
     # Specify which Python versions you support. In contrast to the
     # 'Programming Language' classifiers above, 'pip install' will check this
@@ -144,7 +144,7 @@ setup(
     #
     # For an analysis of "install_requires" vs pip's requirements files see:
     # https://packaging.python.org/discussions/install-requires-vs-requirements/
-    install_requires=['peppercorn'],  # Optional
+    install_requires=['requests'],  # Optional
 
     # List additional groups of dependencies here (e.g. development
     # dependencies). Users will be able to install these using the "extras"
@@ -161,16 +161,16 @@ setup(
 
     # If there are data files included in your packages that need to be
     # installed, specify them here.
-    package_data={  # Optional
-        'sample': ['package_data.dat'],
-    },
+    # package_data={  # Optional
+    #     'sample': ['package_data.dat'],
+    # },
 
     # Although 'package_data' is the preferred approach, in some case you may
     # need to place data files outside of your packages. See:
     # http://docs.python.org/distutils/setupscript.html#installing-additional-files
     #
     # In this case, 'data_file' will be installed into '<sys.prefix>/my_data'
-    data_files=[('my_data', ['data/data_file'])],  # Optional
+    # data_files=[('my_data', ['data/data_file'])],  # Optional
 
     # To provide executable scripts, use entry points in preference to the
     # "scripts" keyword. Entry points provide cross-platform support and allow
@@ -179,11 +179,11 @@ setup(
     #
     # For example, the following would provide a command called `sample` which
     # executes the function `main` from this package when invoked:
-    entry_points={  # Optional
-        'console_scripts': [
-            'sample=sample:main',
-        ],
-    },
+    # entry_points={  # Optional
+    #     'console_scripts': [
+    #         'sample=sample:main',
+    #     ],
+    # },
 
     # List additional URLs that are relevant to your project as a dict.
     #
@@ -195,9 +195,9 @@ setup(
     # maintainers, and where to support the project financially. The key is
     # what's used to render the link text on PyPI.
     project_urls={  # Optional
-        'Bug Reports': 'https://github.com/pypa/sampleproject/issues',
+        'Bug Reports': 'https://github.com/James11222/Astro250/issues',
         'Funding': 'https://donate.pypi.org',
-        'Say Thanks!': 'http://saythanks.io/to/example',
-        'Source': 'https://github.com/pypa/sampleproject/',
+        'Check out my Website!': 'http://www.jamessunseri.com',
+        'Source': 'https://github.com/James11222/Astro250/tree/main/HW3/calcalc/',
     },
 )

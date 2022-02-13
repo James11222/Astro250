@@ -1,4 +1,4 @@
-# CalCalc
+# CalCalc [![codecov](https://codecov.io/gh/James11222/Astro250/branch/main/graph/badge.svg?token=201P7AUCT9)](https://codecov.io/gh/James11222/Astro250)
 
 Welcome to the coolest calculator you have ever used in python! Ask it any question your heart desires. Start small with simple math, but feel free to branch out and ask it more difficult questions. You might be wondering what the mass of the moon is, or what the average life expectancy of people in Germany is, or maybe you might be wondering... what is the meaning of life? These can all be answered by CalCalc! 
 

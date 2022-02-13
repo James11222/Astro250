@@ -34,8 +34,7 @@ jobs:
     - name: Test with pytes and covt
       run: |
         pip install coverage
-        # pytest HW3/calcalc/CalCalc.py
-        coverage run -m pytest HW3/calcalc/CalCalc.py
+        coverage run -m pytest HW3/calcalc/tests/all_tests.py
     - name: Upload Coverage to Codecov
       uses: codecov/codecov-action@v1
         

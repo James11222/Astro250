@@ -5,7 +5,7 @@ Welcome to the coolest calculator you have ever used in python! Ask it any quest
 ### Basic Usage:
 
 ```python
-import CalCalc as cal
+import calcalc.CalCalc as cal
 
 cal.calculate("7 * 4")
 28

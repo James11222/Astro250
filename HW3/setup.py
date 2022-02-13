@@ -7,12 +7,15 @@ https://github.com/pypa/sampleproject
 
 # Always prefer setuptools over distutils
 from setuptools import setup
+import pathlib
+
+here = pathlib.Path(__file__).parent.resolve()
 
 setup(
     name='calcalc_js',  # Required
     version='0.9.0',  # Required
     description='A package that serves as an all purpose calculator.',  # Optional
-    long_description=('README.md').read_text(encoding='utf-8'),  # Optional
+    long_description=(here / 'README.md').read_text(encoding='utf-8'),  # Optional
     long_description_content_type='text/markdown',  # Optional (see note above)
     url='https://github.com/James11222/Astro250/tree/main/HW3',  # Optional
 

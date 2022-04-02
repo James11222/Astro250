@@ -5,8 +5,8 @@ In this directory the solution to the homework is in the `hw_4.ipynb` notebook, 
 A typical use of this script would be as follows:
 
 ```
-
 python estimate_pi.py -n 4
-
 ```
+
+Using this code we find that as expected, the simple implementation does end up being the slowest when we have large amounts darts thrown but this is not always the case. This graph clearly shows that the gains from parallelizing our code only really become apparent after +10,000 darts have been thrown. This is because it takes a bit of time to set up the multiple processes/dask arrays initially, but once they are initiallized they can take advantage of the increased computational resources and become more effective. We see that dask is the fastest in this case, but this is to be expected because there is no `for` loops in that implementation to slow down the blazingly fast numpy/dask code. Ultimately it is important to know when parallel computing is actually necessary because it can be quite challenging to implement correctly and may not be worth it if the amount of computations is not very large.
 

@@ -8,3 +8,11 @@ For use of this package you can check out the sarabande package on [PyPi](https:
 `pip install sarabande`
 
 A video demonstration can be found [Here](https://youtu.be/mKi50mm5W3c)!
+
+Building this Package used the following core concepts from the course:
+
+* Packaging Python Code
+* Automated Testing
+* Parallel Processing/Threading
+
+
